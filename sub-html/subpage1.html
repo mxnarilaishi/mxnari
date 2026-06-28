@@ -4,52 +4,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sinigang Recipe</title>
-  <link rel="stylesheet" href="../css/subpage1.css">
+  <title>Sinigang Shrimp Recipe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/main.css">
+  <script src="../js/nav.js" defer></script>
 </head>
 
-<body>
+<body class="recipe-page">
+  <header class="recipe-header">
+    <nav class="navigation" aria-label="Recipe navigation">
+      <a href="../main.html#home">Home</a>
+      <a href="../main.html#foods">Foods</a>
+      <a href="../main.html#about">About</a>
+    </nav>
 
-  <div class="title">
-    <h1>Sinigang Recipe</h1>
-    <p></p>
-    <img src="" alt="" style="">
-  </div>
+    <section class="recipe-hero" aria-labelledby="recipe-title">
+      <div class="recipe-copy">
+        <p class="eyebrow">Top 1 recipe</p>
+        <h1 id="recipe-title">Sinigang Shrimp</h1>
+        <p>
+          A warm Filipino sour soup with juicy shrimp, tamarind broth, tomatoes,
+          radish, and leafy greens. It is bright, comforting, and perfect with rice.
+        </p>
+        <div class="recipe-meta" aria-label="Recipe details">
+          <span class="stat">35 minutes</span>
+          <span class="stat">4 servings</span>
+          <span class="stat">Sour and savory</span>
+        </div>
+      </div>
+      <div class="recipe-photo">
+        <img src="../img/shrimp.jpg" alt="Sinigang shrimp served in a bowl">
+      </div>
+    </section>
+  </header>
 
-  <div class="ingredients">
-    <h2>INGREDIENTS</h2>
-    <ul>
-      <li>500g shrimp</li>
-      <li>1 packet sinigang mix</li>
-      <li>2 tomatoes <em>quartered</em></li>
-      <li>1 onion <em>sliced</em></li>
-      <li>1 radish (labanos) <em>sliced</em></li>
-      <li>2 green chili peppers (siling haba)</li>
-      <li>6 cups water</li>
-      <li>Fish sauce (patis) <em>to taste</em></li>
-      <li>Salt <em>to taste</em></li>
-    </ul>
+  <main>
+    <section class="recipe-layout" aria-label="Sinigang shrimp recipe details">
+      <article class="recipe-card">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>500g shrimp, cleaned and deveined</li>
+          <li>1 packet sinigang mix or tamarind soup base</li>
+          <li>2 tomatoes, quartered</li>
+          <li>1 onion, sliced</li>
+          <li>1 radish, sliced</li>
+          <li>2 green chili peppers</li>
+          <li>1 bunch kangkong leaves</li>
+          <li>6 cups water</li>
+          <li>Fish sauce, salt, and pepper to taste</li>
+        </ul>
+      </article>
 
-    <div class="instructions">
-      <h2>INSTRUCTIONS</h2>
-      <ol>
-        <li><strong>Prepare Ingredients:</strong>Clean and devein shrimp, slice radish, tomatoes<br>
-        wash kangkong leaves</li>
-        <li><strong>Boil base:</strong>In a pot, add water and tomatoes. Let it boil until tomatoes<br>
-        soften.</li>
-        <li><strong>Add sour flavor:</strong>Mix in sinigang mix for that signature tangy taste.</li>
-        <li><strong>Add radish:</strong>Drop in radish slices and cook until tender.</li>
-        <li><strong>Add shrimp:</strong>Place the shrimp into the pot and simmer for 3-5 minutes<br>
-        until they turn pink and are cooked through.</li>
-        <li><strong>Season:</strong>Add fish sauce, salt, and pepper to taste.</li>
-        <li><strong>Finish with greens:</strong>Add kangkong leaves last, simmer for 1-2 minutes.</li>
-        <li><strong>Serve hot:</strong>Enjoy with steamed rice.</li>
-      </ol>
-    </div>
+      <article class="recipe-card">
+        <h2>Instructions</h2>
+        <ol>
+          <li>Boil the water with tomatoes and onion until the tomatoes soften.</li>
+          <li>Stir in the sinigang mix and let the broth become tangy.</li>
+          <li>Add the radish slices and simmer until tender.</li>
+          <li>Add the shrimp and cook for 3 to 5 minutes, until pink and firm.</li>
+          <li>Season with fish sauce, salt, and pepper.</li>
+          <li>Add kangkong and green chilies, then simmer for 1 to 2 minutes.</li>
+          <li>Serve hot with steamed rice.</li>
+        </ol>
+      </article>
+    </section>
 
-    <p>This is my top 1 in the list and I love it because of how sour and tasty it is combined.</p>
+    <section class="recipe-note">
+      <p class="eyebrow">Why I love it</p>
+      <h2>Sour, cozy, and always satisfying</h2>
+      <p>
+        This is my top 1 because the sour broth and seafood flavor taste fresh and comforting at the same time.
+      </p>
+    </section>
+  </main>
 
-    <a href="../main.html" title="Main Webpage">Back to Home</a>
 </body>
 
 </html>
+

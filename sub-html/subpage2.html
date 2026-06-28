@@ -5,36 +5,82 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bopis Recipe</title>
-  <link rel="stylesheet" href="../css/subpage2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/main.css">
+  <script src="../js/nav.js" defer></script>
 </head>
 
-<body>
-  <h1>Bopis Recipe</h1>
-  <p></p>
+<body class="recipe-page">
+  <header class="recipe-header">
+    <nav class="navigation" aria-label="Recipe navigation">
+      <a href="../main.html#home">Home</a>
+      <a href="../main.html#foods">Foods</a>
+      <a href="../main.html#about">About</a>
+    </nav>
 
-  <img src="" alt="" style="">
+    <section class="recipe-hero" aria-labelledby="recipe-title">
+      <div class="recipe-copy">
+        <p class="eyebrow">Top 2 recipe</p>
+        <h1 id="recipe-title">Bopis</h1>
+        <p>
+          A bold Filipino dish made with finely chopped pork lungs and heart,
+          cooked with garlic, onion, vinegar, and chilies for a spicy tangy bite.
+        </p>
+        <div class="recipe-meta" aria-label="Recipe details">
+          <span class="stat">55 minutes</span>
+          <span class="stat">4 servings</span>
+          <span class="stat">Spicy and tangy</span>
+        </div>
+      </div>
+      <div class="recipe-photo">
+        <img src="../img/bopis.jpg" alt="Bopis served on a plate">
+      </div>
+    </section>
+  </header>
 
-  <h2>INGREDIENTS</h2>
-  <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ul>
+  <main>
+    <section class="recipe-layout" aria-label="Bopis recipe details">
+      <article class="recipe-card">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>500g pork lungs and heart, boiled and finely chopped</li>
+          <li>1 onion, minced</li>
+          <li>4 cloves garlic, minced</li>
+          <li>1 red bell pepper, diced</li>
+          <li>2 tablespoons cooking oil</li>
+          <li>1/3 cup vinegar</li>
+          <li>2 tablespoons soy sauce</li>
+          <li>2 red chilies, chopped</li>
+          <li>Salt and pepper to taste</li>
+        </ul>
+      </article>
 
-  <h2>INSTRUCTIONS</h2>
-  <ol>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ol>
+      <article class="recipe-card">
+        <h2>Instructions</h2>
+        <ol>
+          <li>Heat oil in a pan, then saute garlic and onion until fragrant.</li>
+          <li>Add the chopped pork lungs and heart, then cook until lightly browned.</li>
+          <li>Pour in vinegar and let it boil for a few minutes without stirring.</li>
+          <li>Add soy sauce, bell pepper, and chilies, then mix well.</li>
+          <li>Simmer until the liquid reduces and the flavor becomes rich.</li>
+          <li>Season with salt and pepper.</li>
+          <li>Serve hot with rice.</li>
+        </ol>
+      </article>
+    </section>
 
-  <p></p>
+    <section class="recipe-note">
+      <p class="eyebrow">Why I love it</p>
+      <h2>Big flavor in every bite</h2>
+      <p>
+        Bopis stands out because it is savory, spicy, and tangy. It is the kind of dish that makes plain rice exciting.
+      </p>
+    </section>
+  </main>
 
-  <a href="../main.html" title="Main Webpage">Back to Home</a>
 </body>
 
 </html>
+

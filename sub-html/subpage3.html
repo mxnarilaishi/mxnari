@@ -5,36 +5,81 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tempura Recipe</title>
-  <link rel="stylesheet" href="../css/subpage3.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/main.css">
+  <script src="../js/nav.js" defer></script>
 </head>
 
-<body>
-  <h1>Tempura Recipe</h1>
-  <p></p>
+<body class="recipe-page">
+  <header class="recipe-header">
+    <nav class="navigation" aria-label="Recipe navigation">
+      <a href="../main.html#home">Home</a>
+      <a href="../main.html#foods">Foods</a>
+      <a href="../main.html#about">About</a>
+    </nav>
 
-  <img src="" alt="" style="">
+    <section class="recipe-hero" aria-labelledby="recipe-title">
+      <div class="recipe-copy">
+        <p class="eyebrow">Top 3 recipe</p>
+        <h1 id="recipe-title">Tempura</h1>
+        <p>
+          Light, crispy Japanese-style shrimp and vegetables coated in cold batter
+          and fried until golden. The best bite is crunchy outside and tender inside.
+        </p>
+        <div class="recipe-meta" aria-label="Recipe details">
+          <span class="stat">30 minutes</span>
+          <span class="stat">4 servings</span>
+          <span class="stat">Crispy and light</span>
+        </div>
+      </div>
+      <div class="recipe-photo">
+        <img src="../img/tempura.jpg" alt="Crispy tempura in a frying basket">
+      </div>
+    </section>
+  </header>
 
-  <h2>INGREDIENTS</h2>
-  <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ul>
+  <main>
+    <section class="recipe-layout" aria-label="Tempura recipe details">
+      <article class="recipe-card">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>12 shrimp, peeled and deveined</li>
+          <li>1 cup all-purpose flour</li>
+          <li>1 egg</li>
+          <li>1 cup ice-cold water</li>
+          <li>1/2 cup sliced vegetables such as carrots, eggplant, or squash</li>
+          <li>Oil for deep frying</li>
+          <li>Salt to taste</li>
+          <li>Tempura sauce or soy sauce for serving</li>
+        </ul>
+      </article>
 
-  <h2>INSTRUCTIONS</h2>
-  <ol>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ol>
+      <article class="recipe-card">
+        <h2>Instructions</h2>
+        <ol>
+          <li>Pat the shrimp and vegetables dry so the batter sticks well.</li>
+          <li>Heat oil in a deep pan over medium-high heat.</li>
+          <li>In a bowl, lightly mix egg and ice-cold water.</li>
+          <li>Add flour and stir gently. Keep the batter a little lumpy for a crisp texture.</li>
+          <li>Dip shrimp and vegetables into the batter.</li>
+          <li>Fry in small batches until light golden and crisp.</li>
+          <li>Drain on a rack or paper towel, then serve immediately with sauce.</li>
+        </ol>
+      </article>
+    </section>
 
-  <p></p>
+    <section class="recipe-note">
+      <p class="eyebrow">Why I love it</p>
+      <h2>Simple, crisp, and fun to eat</h2>
+      <p>
+        Tempura is one of my favorites because the batter is delicate and crunchy while the shrimp stays juicy inside.
+      </p>
+    </section>
+  </main>
 
-  <a href="../main.html" title="Main Webpage">Back to Home</a>
 </body>
 
 </html>
+
